@@ -1,0 +1,34 @@
+First N Natural Numbers
+//////////////////////////
+
+var n = 5
+var sum = 0
+
+for i in 1...n {
+    sum += i
+}
+print(sum)
+
+Factorial 
+//////////////////////////
+
+var n = 5
+var fact = 1
+
+for i in 1...n {
+    fact *= i
+}
+print(fact)
+
+Count Digits
+/////////////////////////
+
+var number = 12345
+var count = 0
+
+while number > 0 {
+    count += 1
+    number /= 10
+}
+
+print(count)
